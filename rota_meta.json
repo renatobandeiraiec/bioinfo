@@ -1,0 +1,185 @@
+{
+  "title": "Rotavirus G3 Test",
+  "color_options": {
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "country": {
+      "legendTitle": "country",
+      "menuItem": "country",
+      "key": "country",
+      "color_map": [
+        [
+          "Brazil",
+          "#0B610B"
+        ],
+        [
+          "Argentina",
+          "#0040FF"
+        ],
+        [
+          "Paraguay",
+          "#F4FA58"
+        ],
+        [
+          "Peru",
+          "#5F4C0B"
+        ],
+        [
+          "Uruguay",
+          "#6E6E6E"
+        ],
+        [
+          "Canada",
+          "#4041C7"
+        ],
+        [
+          "Chile",
+          "#3B170B"
+        ],
+        [
+          "Nicaragua",
+          "#A9D0F5"
+        ],
+        [
+          "USA",
+          "#FF0000"
+        ],
+        [
+          "Study",
+          "#2A0A0A"
+        ]
+      ]
+    },
+    "host": {
+      "legendTitle": "host",
+      "menuItem": "host",
+      "key": "host",
+      "color_map": [
+        [
+          "Human",
+          "#0B610B"
+        ],
+        [
+          "Swine",
+          "#0040FF"
+        ],
+        [
+          "Dog",
+          "#F4FA58"
+        ],
+        [
+          "Horse",
+          "#5F4C0B"
+        ],
+        [
+          "Camel",
+          "#4041C7"
+        ],
+        [
+          "Monkey",
+          "#3B170B"
+        ],
+        [
+          "Bat",
+          "#A9D0F5"
+        ],
+        [
+          "Alpaca",
+          "#6E6E6E"
+        ]
+      ]
+    },
+    "region": {
+      "legendTitle": "region",
+      "menuItem": "region",
+      "key": "region",
+      "color_map": []
+    }
+  },
+  "geo": {
+    "country": {
+      "Peru": {
+        "latitude": -10.0,
+        "longitude": -75.25
+      },
+      "Brazil": {
+        "latitude": -10.3333332,
+        "longitude": -53.1999999
+      },
+      "Argentina": {
+        "latitude": -37.5,
+        "longitude": -65
+      },
+      "Uruguay": {
+        "latitude": -32.627735,
+        "longitude": -55.695215
+      },
+      "Paraguay": {
+        "latitude": -23.450186,
+        "longitude": -58.447231
+      },
+      "Canada": {
+        "latitude": 56.13037,
+        "longitude": -106.34677
+      },
+      "Chile": {
+        "latitude": -35.67515,
+        "longitude": -71.54297
+      },
+      "Nicaragua": {
+        "latitude": 12.86542,
+        "longitude": -85.20723
+      },
+      "USA": {
+        "latitude": 37.09024,
+        "longitude": -95.71289
+      },
+      "Study": {
+        "latitude": -1.99813,
+        "longitude": -54.93062
+      }
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "maintainer": [
+    "Renato",
+    "renato@gmail.com"
+  ],
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
+  "updated": "12 Sep 2018",
+  "virus_count": 211,
+  "author_info": {
+    "Unknown": {
+      "n": 203,
+      "title": "Unknown",
+      "journal": "Unknown"
+    },
+    "Bandeira": {
+      "n": 8,
+      "title": "Unknown",
+      "journal": "Unknown"
+    }
+  },
+  "annotations": {
+    "nuc": {
+      "start": 1,
+      "end": 1062,
+      "strand": 1
+    }
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}
